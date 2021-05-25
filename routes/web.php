@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    show();
-});
+Route::get('/','PagesController@root')->name('root');
